@@ -28,5 +28,3 @@ To add an **Actions Secret** click **'New repository secret'** into **'Settings'
 
 
 [1]: https://www.conventionalcommits.org/
-
-test

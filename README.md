@@ -27,5 +27,5 @@ To add an **Actions Secret** click **'New repository secret'** into **'Settings'
 1) Add an SSH Key to your Github ([see how](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account))
 
 
-palome
+
 [1]: https://www.conventionalcommits.org/

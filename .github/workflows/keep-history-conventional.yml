@@ -13,3 +13,5 @@ jobs:
         with:
            fetch-depth: 0
       - uses: fabriziocacicia/keep-history-conventional@v0.1.1-draft
+        env:
+          GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}

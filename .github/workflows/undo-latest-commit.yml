@@ -1,0 +1,15 @@
+name: Undo Latest Commit
+on:
+  workflow_dispatch
+  
+jobs:
+  undo-latest-commit:
+    name: Undo Latest Commit
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+           fetch-depth: 0
+      - uses: fabriziocacicia/undo-latest-commit-action@v0.1.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
